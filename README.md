@@ -21,14 +21,10 @@ To get started with the Rick and Morty App, follow these steps:
 5. Access the application in your web browser at `http://localhost:8080`
 
 Or you can use docker
-- First, make sure you have docker installed
-- Copy this command `docker pull dominskyi/rick-and-morty`
-- Run the command in the terminal
-- Run the command
-    
-
-
-
+1. First, make sure you have docker installed and running
+2. Clone the repository
+3. Build the project: `mvn clean install`
+4. Run the command `docker-compose up` in the terminal
 
 ## API Endpoints
 The following API endpoints are available:
